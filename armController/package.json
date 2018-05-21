@@ -1,0 +1,38 @@
+{
+  "name": "armController",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "storybook": "storybook start -p 7007"
+  },
+  "dependencies": {
+    "mime": "^2.3.1",
+    "react": "16.3.1",
+    "react-native": "0.55.3",
+    "react-native-android-facebook-login": "^0.1.1",
+    "react-native-elements": "^0.19.1",
+    "react-native-vector-icons": "^4.6.0",
+    "react-navigation": "^1.5.11",
+    "youtube-stream-url": "^1.0.1"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^4.0.0-alpha.3",
+    "@storybook/addon-links": "^4.0.0-alpha.3",
+    "@storybook/addons": "^4.0.0-alpha.3",
+    "@storybook/react-native": "^4.0.0-alpha.3",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "22.4.3",
+    "babel-preset-react-native": "4.0.0",
+    "babel-runtime": "^7.0.0-beta.3",
+    "jest": "22.4.3",
+    "prop-types": "^15.6.1",
+    "react-dom": "16.3.1",
+    "react-test-renderer": "16.3.1",
+    "rn-nodeify": "github:mvayngrib/rn-nodeify"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
